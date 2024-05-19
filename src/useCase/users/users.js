@@ -8,7 +8,6 @@ export class useCaseUser {
 
     async getUsers() {
         const users = await this.repository.getUsers()
-        console.log(users, 'repo');
         return users
     }
 
