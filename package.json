@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Esta es una API para tener las bases de como estructurar un proyecto, usando express. Los conceptos son para todos, no importa el lenguaje.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=deveploment node --watch --env-file=.env src/Frameworks/index.js"
+  },
+  "author": "Camidev",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.19.2",
+    "sequelize": "^6.37.3",
+    "tedious": "^18.2.0"
+  }
+}
